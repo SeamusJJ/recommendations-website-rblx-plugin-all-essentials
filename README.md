@@ -52,7 +52,7 @@
     <h1>💡 Submit a Recommendation</h1>
   </header>
 
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form action="https://formspree.io/f/mblzdjvl" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="_replyto" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Recommendation..." rows="5" required></textarea>
