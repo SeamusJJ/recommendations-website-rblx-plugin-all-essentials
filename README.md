@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #f9f9f9;
       margin: 0;
       padding: 0;
       text-align: center;
@@ -34,6 +34,11 @@
       margin: 10px 0;
       padding: 10px;
       font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea {
+      resize: vertical;
     }
     button {
       background: #4CAF50;
@@ -45,11 +50,20 @@
     button:hover {
       background: #45a049;
     }
+    .success-message {
+      color: green;
+      margin-top: 20px;
+    }
+    .error-message {
+      color: red;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>💡 Submit a Recommendation</h1>
+    <p>Send me your ideas below!</p>
   </header>
 
   <form action="https://formspree.io/f/mblzdjvl" method="POST">
@@ -60,3 +74,4 @@
   </form>
 </body>
 </html>
+
