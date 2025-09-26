@@ -24,6 +24,6 @@
 </head>
 <body>
   <h1>🚀 Welcome to My Recommendations Website</h1>
-  <p>More features will be added soon — stay tuned!</p>
+  <p>Submit your ideas soon — site is under construction!</p>
 </body>
 </html>
